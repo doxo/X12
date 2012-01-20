@@ -23,6 +23,7 @@
 #
 $:.unshift(File.dirname(__FILE__))
 
+require 'x12/separators'
 require 'x12/base'
 require 'x12/empty'
 require 'x12/field'
